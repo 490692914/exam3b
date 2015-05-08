@@ -118,33 +118,33 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Button1.text" xml:space="preserve">
-    <value>Submit</value>
+    <value>presentar</value>
   </data>
   <data name="Label1.text" xml:space="preserve">
-    <value>Welcome to MSCI:3300</value>
+    <value>Bienvenido a MSCI: 3300</value>
   </data>
   <data name="Label2.text" xml:space="preserve">
-    <value>Software Design and Development</value>
+    <value>Diseño y Desarrollo de Software</value>
   </data>
   <data name="Label3.text" xml:space="preserve">
-    <value>Please choose your Language:</value>
+    <value>Por favor, elija su idioma:</value>
   </data>
   <data name="Label4.text" xml:space="preserve">
-    <value>My name is:</value>
+    <value>Mi nombre es:</value>
   </data>
   <data name="Label5.text" xml:space="preserve">
-    <value>I am:</value>
+    <value>Soy:</value>
   </data>
   <data name="Label6.text" xml:space="preserve">
-    <value>I plan to graduate on:</value>
+    <value>Tengo la intención de graduarse en:</value>
   </data>
   <data name="Label7.text" xml:space="preserve">
-    <value>When I graduate, I hope to earn:</value>
+    <value>Cuando me gradúe, espero ganar:</value>
   </data>
   <data name="Radio1.text" xml:space="preserve">
-    <value>Male</value>
+    <value>masculino</value>
   </data>
   <data name="Radio2.text" xml:space="preserve">
-    <value>Female</value>
+    <value>femenino</value>
   </data>
 </root>

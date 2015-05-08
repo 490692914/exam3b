@@ -118,33 +118,33 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Button1.text" xml:space="preserve">
-    <value>Submit</value>
+    <value>提交</value>
   </data>
   <data name="Label1.text" xml:space="preserve">
-    <value>Welcome to MSCI:3300</value>
+    <value>欢迎MSCI：3300</value>
   </data>
   <data name="Label2.text" xml:space="preserve">
-    <value>Software Design and Development</value>
+    <value>软件设计与开发</value>
   </data>
   <data name="Label3.text" xml:space="preserve">
-    <value>Please choose your Language:</value>
+    <value>请选择您的语言：</value>
   </data>
   <data name="Label4.text" xml:space="preserve">
-    <value>My name is:</value>
+    <value>我的名字是：</value>
   </data>
   <data name="Label5.text" xml:space="preserve">
-    <value>I am:</value>
+    <value>我是：</value>
   </data>
   <data name="Label6.text" xml:space="preserve">
-    <value>I plan to graduate on:</value>
+    <value>我打算毕业的日期：</value>
   </data>
   <data name="Label7.text" xml:space="preserve">
-    <value>When I graduate, I hope to earn:</value>
+    <value>当我毕业了，我希望能够赚到的钱：</value>
   </data>
   <data name="Radio1.text" xml:space="preserve">
-    <value>Male</value>
+    <value>男</value>
   </data>
   <data name="Radio2.text" xml:space="preserve">
-    <value>Female</value>
+    <value>女</value>
   </data>
 </root>
