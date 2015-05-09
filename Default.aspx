@@ -21,8 +21,7 @@
             <br />
         <asp:Panel ID="Panel1" runat="server" CssClass="center">
             <asp:Label ID="Label3" runat="server" Text="Label" meta:resourceKey="Label3"></asp:Label>
-            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="true">
-                <asp:ListItem Value="auto">auto</asp:ListItem>   
+            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="true"> 
                 <asp:ListItem Value="en-US">English</asp:ListItem>    
                 <asp:ListItem Value="ar">العربية</asp:ListItem>
                 <asp:ListItem Value="es-US">español</asp:ListItem>
