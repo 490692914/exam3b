@@ -1,0 +1,28 @@
+﻿body {
+    background-color: lightblue;
+    width:704px;
+
+}
+#middle {
+    margin-left:auto;
+    margin-right:auto;
+    width:904px;
+}
+
+#left {
+    width:200px;
+    height:300px;
+    margin:auto 50px;
+    float:left;
+    
+    border:solid thin;
+    padding: 100px 50px;
+}
+
+#right {
+    margin-left:auto;
+    float:right;
+    width:400px;
+    height:400px;
+    border:solid thin;
+}

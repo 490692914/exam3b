@@ -5,12 +5,15 @@ Partial Class _Default
 
     Protected Overrides Sub InitializeCulture()
 
-        Dim language As String = Request("DropDownList1")
-        If language IsNot Nothing Or language <> "" Then
-            Thread.CurrentThread.CurrentUICulture = New CultureInfo(language)
-            Thread.CurrentThread.CurrentUICulture = CultureInfo.CreateSpecificCulture(language)
+        Dim lang As String = Request("DropDownList1")
+        If lang IsNot Nothing Or lang <> "" Then
+            Thread.CurrentThread.CurrentUICulture = New CultureInfo(lang)
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.CreateSpecificCulture(lang)
         End If
     End Sub
 
 
+    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+
+    End Sub
 End Class
