@@ -5,7 +5,7 @@ Partial Class _Default
     
     Dim name, gender As String
     Dim graDate As New Date
-    Dim money As Double
+    Dim money As Decimal
 
     Protected Overrides Sub InitializeCulture()
         MyBase.InitializeCulture()
@@ -43,7 +43,7 @@ Partial Class _Default
             Session("graDate") = graDate
             Session("money") = money
 
-            Response.Redirect("Result.aspx")
+            Response.Redirect("Result.aspx?value=" + DropDownList1.SelectedValue)
         End If
 
 

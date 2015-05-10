@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Result.aspx.vb" Inherits="Result"  Culture="auto:en-US" UICulture="auto" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Result.aspx.vb" Inherits="Result"  %>
 
 <!DOCTYPE html>
 
@@ -19,6 +19,7 @@
 
     <div id="left">
             <br />
+        <%If Not IsPostBack Then%>
         <asp:Panel ID="Panel1" runat="server" CssClass="center">
             <asp:Label ID="Label3" runat="server" Text="Label" meta:resourceKey="Label3"></asp:Label>
             <asp:DropDownList ID="DropDownList2" runat="server" AutoPostBack="true"> 
@@ -27,8 +28,20 @@
                 <asp:ListItem Value="es-US">español</asp:ListItem>
                 <asp:ListItem Value="zh-CN">汉语</asp:ListItem>
             </asp:DropDownList>
-            <br />
+              <br />
             </asp:Panel>
+            <%Else%>
+         <asp:Panel ID="Panel3" runat="server" CssClass="center">
+            <asp:Label ID="Label14" runat="server" Text="Label" meta:resourceKey="Label3"></asp:Label>
+            <asp:DropDownList ID="DropDownList3" runat="server" AutoPostBack="true"> 
+                <asp:ListItem Value="en-US">English</asp:ListItem>    
+                <asp:ListItem Value="ar">العربية</asp:ListItem>
+                <asp:ListItem Value="es-US">español</asp:ListItem>
+                <asp:ListItem Value="zh-CN">汉语</asp:ListItem>
+            </asp:DropDownList>
+              <br />
+            </asp:Panel>
+             <%End If%>
          </div>    
             <div id="right">
                 <asp:Panel ID="Panel2" runat="server" CssClass="center">

@@ -47,7 +47,7 @@
                 
                 <br />
                 <asp:Label ID="Label7" runat="server" Text="Label" meta:resourceKey="Label6"></asp:Label>
-                <asp:Calendar ID="Calendar1" runat="server" translate="yes"></asp:Calendar>
+                <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
                 <asp:Label ID="Label6" runat="server" Text="Label" meta:resourceKey="Label7"></asp:Label>
                 <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox2" CssClass="validator" ErrorMessage="Please enter your expected money to earn"></asp:RequiredFieldValidator>
