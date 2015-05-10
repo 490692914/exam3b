@@ -1,6 +1,8 @@
 ﻿body {
     background-color: lightblue;
-    width:704px;
+    width:1000px;
+    height:100px;
+    padding:50px;
 
 }
 #middle {
@@ -11,18 +13,27 @@
 
 #left {
     width:200px;
-    height:300px;
+    height:400px;
     margin:auto 50px;
     float:left;
     
     border:solid thin;
-    padding: 100px 50px;
+   padding-left:50px;
+   padding-right:50px;
+   padding-top:100px;
+  
 }
 
 #right {
-    margin-left:auto;
-    float:right;
-    width:400px;
+  width:400px;
     height:400px;
+    margin:auto 50px;
+    float:right;
+    
     border:solid thin;
+      padding-left:50px;
+   padding-right:50px;
+   padding-top:100px;
 }
+
+.validator{color:red;}

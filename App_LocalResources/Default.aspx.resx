@@ -123,6 +123,15 @@
   <data name="Label1.text" xml:space="preserve">
     <value>Welcome to MSCI:3300</value>
   </data>
+  <data name="label10.text" xml:space="preserve">
+    <value>Best wish for your career path after graduation. Hope you can earn</value>
+  </data>
+  <data name="label11.text" xml:space="preserve">
+    <value>when you get your first job!</value>
+  </data>
+  <data name="label12.text" xml:space="preserve">
+    <value>Please visit me at</value>
+  </data>
   <data name="Label2.text" xml:space="preserve">
     <value>Software Design and Development</value>
   </data>
@@ -140,6 +149,12 @@
   </data>
   <data name="Label7.text" xml:space="preserve">
     <value>When I graduate, I hope to earn:</value>
+  </data>
+  <data name="label8.text" xml:space="preserve">
+    <value>Hello</value>
+  </data>
+  <data name="label9.text" xml:space="preserve">
+    <value>I hope your dream will come true when you graduate at</value>
   </data>
   <data name="Radio1.text" xml:space="preserve">
     <value>Male</value>

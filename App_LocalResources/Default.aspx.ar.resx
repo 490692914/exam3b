@@ -123,6 +123,15 @@
   <data name="Label1.text" xml:space="preserve">
     <value>MSCI:3300 مرحبا بكم في  </value>
   </data>
+  <data name="label10.text" xml:space="preserve">
+    <value>أفضل أتمنى مسار حياتك المهنية بعد التخرج. آمل أن تتمكن من كسب</value>
+  </data>
+  <data name="label11.text" xml:space="preserve">
+    <value>عندما تحصل على وظيفتك الأولى!</value>
+  </data>
+  <data name="label12.text" xml:space="preserve">
+    <value>يرجى زيارة لي في</value>
+  </data>
   <data name="Label2.text" xml:space="preserve">
     <value>تصميم وتطوير البرمجيات</value>
   </data>
@@ -140,6 +149,12 @@
   </data>
   <data name="Label7.text" xml:space="preserve">
     <value>عندما تخرجي، وآمل أن كسب:</value>
+  </data>
+  <data name="label8.text" xml:space="preserve">
+    <value>مرحبا</value>
+  </data>
+  <data name="label9.text" xml:space="preserve">
+    <value>آمل أن يأتي حلمك صحيح عند تخرجهم في</value>
   </data>
   <data name="Radio1.text" xml:space="preserve">
     <value>ذكر</value>

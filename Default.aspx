@@ -34,11 +34,15 @@
                 <asp:Panel ID="Panel2" runat="server" CssClass="center">
                 <asp:Label ID="Label4" runat="server" Text="Label" meta:resourceKey="Label4"></asp:Label>
                 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" CssClass="validator" ErrorMessage="**Please enter your name"></asp:RequiredFieldValidator>
                 <br />
                 <asp:Label ID="Label5" runat="server" Text="Label" meta:resourceKey="Label5"></asp:Label>
                 
-                    <asp:RadioButton ID="RadioButton1" runat="server" meta:resourceKey="Radio1"/>
-                     <asp:RadioButton ID="RadioButton2" runat="server" meta:resourceKey="Radio2" />
+                    <asp:RadioButton ID="RadioButton1" runat="server" meta:resourceKey="Radio1" GroupName="genderGroup"/>
+                     <asp:RadioButton ID="RadioButton2" runat="server" meta:resourceKey="Radio2" GroupName="genderGroup" />
+
+                
+                    <asp:Label ID="Label8" runat="server"></asp:Label>
 
                 
                 <br />
@@ -46,6 +50,7 @@
                 <asp:Calendar ID="Calendar1" runat="server" translate="yes"></asp:Calendar>
                 <asp:Label ID="Label6" runat="server" Text="Label" meta:resourceKey="Label7"></asp:Label>
                 <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox2" CssClass="validator" ErrorMessage="Please enter your expected money to earn"></asp:RequiredFieldValidator>
                <br />
                  <asp:Button ID="Button1" runat="server" Text="Button" meta:resourceKey="Button1" />
             </asp:Panel>

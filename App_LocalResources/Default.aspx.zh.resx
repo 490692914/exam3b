@@ -123,6 +123,15 @@
   <data name="Label1.text" xml:space="preserve">
     <value>欢迎MSCI：3300</value>
   </data>
+  <data name="label10.text" xml:space="preserve">
+    <value>祝你毕业后你的职业生涯一切顺利。希望你可以赚</value>
+  </data>
+  <data name="label11.text" xml:space="preserve">
+    <value>当你拿到你的第一份工作！</value>
+  </data>
+  <data name="label12.text" xml:space="preserve">
+    <value>请访问我在</value>
+  </data>
   <data name="Label2.text" xml:space="preserve">
     <value>软件设计与开发</value>
   </data>
@@ -140,6 +149,12 @@
   </data>
   <data name="Label7.text" xml:space="preserve">
     <value>当我毕业了，我希望能够赚到的钱：</value>
+  </data>
+  <data name="label8.text" xml:space="preserve">
+    <value>你好</value>
+  </data>
+  <data name="label9.text" xml:space="preserve">
+    <value>我希望你的可以梦想会成真当你毕业于</value>
   </data>
   <data name="Radio1.text" xml:space="preserve">
     <value>男</value>
