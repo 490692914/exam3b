@@ -157,9 +157,9 @@
     <value>我希望你的可以梦想会成真当你毕业于</value>
   </data>
   <data name="Radio1.text" xml:space="preserve">
-    <value>男</value>
+    <value>先生</value>
   </data>
   <data name="Radio2.text" xml:space="preserve">
-    <value>女</value>
+    <value>女士</value>
   </data>
 </root>

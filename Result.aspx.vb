@@ -16,7 +16,7 @@ Partial Class Result
             DropDownList2.SelectedValue = Request("value")
         End If
 
-        Label5.Text = gender
+
         Label6.Text = name
         Label8.Text = graDate
         Label11.Text = String.Format("{0:c}", money)

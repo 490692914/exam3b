@@ -157,9 +157,9 @@
     <value>I hope your dream will come true when you graduate at</value>
   </data>
   <data name="Radio1.text" xml:space="preserve">
-    <value>Male</value>
+    <value>Sir</value>
   </data>
   <data name="Radio2.text" xml:space="preserve">
-    <value>Female</value>
+    <value>Ms.</value>
   </data>
 </root>

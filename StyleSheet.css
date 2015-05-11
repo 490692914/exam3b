@@ -1,39 +1,45 @@
 ﻿body {
-    background-color: lightblue;
     width:1000px;
-    height:100px;
+    height:700px;
     padding:50px;
-
+    font-family:Georgia,serif;
 }
 #middle {
-    margin-left:auto;
+    margin-left:380px;
     margin-right:auto;
     width:904px;
 }
 
 #left {
     width:200px;
-    height:400px;
-    margin:auto 50px;
+    height:300px;
     float:left;
+    margin-left:50px;
     
     border:solid thin;
-   padding-left:50px;
+   padding-left:70px;
    padding-right:50px;
-   padding-top:100px;
+   padding-top:200px;
   
 }
 
 #right {
-  width:400px;
-    height:400px;
-    margin:auto 50px;
+
+  width:426px;
+    height:450px;
     float:right;
     
     border:solid thin;
-      padding-left:50px;
+      padding-left:150px;
    padding-right:50px;
-   padding-top:100px;
+   padding-top:50px;
+}
+
+#label1 {
+font-size:large;
+}
+#label2{
+    font-size:medium;
 }
 
 .validator{color:red;}
